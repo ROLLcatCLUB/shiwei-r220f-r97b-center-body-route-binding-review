@@ -1,0 +1,27 @@
+{
+  "stage": "1013R_R220F_R97B_CENTER_BODY_READONLY_ROUTE_BINDING_CANARY_WITH_PATCH_PREVIEW",
+  "target_slot": "R97B lesson-body",
+  "view_modes": {
+    "baseline_view": {
+      "source": "R201K baseline single_lesson_template",
+      "behavior": "render baseline body only"
+    },
+    "model_candidate_view": {
+      "source": "R201K baseline plus R201M proposed patch list",
+      "behavior": "show model suggestions and diff panel; do not replace baseline body"
+    },
+    "accepted_preview_view": {
+      "source": "R201M accepted_only_preview",
+      "behavior": "apply accepted patches only; rejected/deferred stay out of body"
+    }
+  },
+  "model_patch_sample_scope": [
+    "numbered_colon_old_shoes",
+    "plain_segment_weaving",
+    "real_downpour_docx"
+  ],
+  "fallback_for_samples_without_model_patch": "baseline_view only",
+  "formal_apply": false,
+  "write_enabled": false,
+  "route_canary_only": true
+}
