@@ -1,0 +1,20 @@
+{
+  "forbidden_terms": [
+    "R200A",
+    "R200B",
+    "R97B_P3",
+    "deterministic_fallback",
+    "legacy_shell",
+    "source_gap",
+    "provider_called",
+    "model_called",
+    "formal apply",
+    "field projection",
+    "execution map"
+  ],
+  "forbidden_hits": [],
+  "source_gap_as_teaching_body": false,
+  "candidate_confirmation_label_present": true,
+  "teacher_main_forbidden_sources": 0,
+  "engineering_term_in_teacher_main": 0
+}
